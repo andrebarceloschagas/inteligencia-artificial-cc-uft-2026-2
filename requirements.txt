@@ -1,0 +1,8 @@
+# Visualização dos mapas e dos resultados dos experimentos
+matplotlib>=3.8
+
+# Usado pelo módulo legado em limbo/coloracao.py
+numpy>=1.26
+
+# Execução dos testes automatizados
+pytest>=8.0

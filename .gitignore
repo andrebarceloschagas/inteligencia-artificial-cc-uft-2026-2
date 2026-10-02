@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Pastas não rastreadas
+limbo/
+
+# Ferramentas de empacotamento
+.Python
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testes, cobertura e ferramentas de qualidade
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# IDEs e sistemas operacionais
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Saídas geradas pelos experimentos
+experimento_resultados.csv
+experimento_comparativo.png
+resultado_coloracao.png
+resultado*.png
